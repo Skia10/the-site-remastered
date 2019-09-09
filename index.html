@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Skia is gone forever</title>
+
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+		<bgsound src="https://www.youtube.com/watch?v=JTrq3mfReKg" loop="-1">
+
+
+
+	</head>
+
+	<body bgcolor=#F7BEEA>
+
+		<nav>
+
+    		<ul>
+
+        		<li><a href="./"><font color=green>Home</font></a></li>
+
+	        	<li><a href="./About"><font color=green>About</font></a></li>
+
+        		<li><a href="./games/games"><font color=green>Games</font></a></li>
+
+        		<li><a href="./blog"><font color=green>Blog</font></a></li>
+
+			<li><a herf="./logg.html"><font color=green>Log</font></a></li>
+
+			<li><a href="./meetteam"><font color=green>Meet the team</font></a></li>
+
+			<li><a herf="./!hidden!"><font color=green>the puzzle</font></a></li>
+
+    		</ul>
+
+		</nav>
+
+		<div class="container">
+
+    		<div class="blurb">
+
+        		<h1>Im Skia</h1>
+
+				<p>There is now a new puzzle to do, if you can figure it out. chances are youll give up but whatever, just try if you want. <em> <font color=red> Don't be scared </font> </em> . <a href="https://skia10.github.io/!hidden!">try to solve the puzzle!!!</a></p>
+
+    		</div><!-- /.blurb -->
+
+		</div><!-- /.container -->
+
+			<img src="https://gif-free.com/uploads/posts/2017-03/1490894860_cat-wiggle.gif" alt="a picture" width=400 hight=210>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+#snackbar {
+
+  visibility: hidden;
+
+  min-width: 250px;
+
+  margin-left: -125px;
+
+  background-color: #333;
+
+  color: #fff;
+
+  text-align: center;
+
+  border-radius: 2px;
+
+  padding: 16px;
+
+  position: fixed;
+
+  z-index: 1;
+
+  left: 50%;
+
+  bottom: 30px;
+
+  font-size: 17px;
+
+}
+
+
+
+#snackbar.show {
+
+  visibility: visible;
+
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+
+  animation: fadein 0.5s, fadeout 0.5s 7.5s;
+
+}
+
+
+
+@-webkit-keyframes fadein {
+
+  from {bottom: 0; opacity: 0;} 
+
+  to {bottom: 30px; opacity: 1;}
+
+}
+
+
+
+@keyframes fadein {
+
+  from {bottom: 0; opacity: 0;}
+
+  to {bottom: 30px; opacity: 1;}
+
+}
+
+
+
+@-webkit-keyframes fadeout {
+
+  from {bottom: 30px; opacity: 1;} 
+
+  to {bottom: 0; opacity: 0;}
+
+}
+
+
+
+@keyframes fadeout {
+
+  from {bottom: 30px; opacity: 1;}
+
+  to {bottom: 0; opacity: 0;}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<h2>joke of the day</h2>
+
+<p>This is where you can find the random joke of the day! its cool! (weekends count as one day)</p>
+
+<p>Click on the button to show the joke. It will disappear after 8 seconds.</p>
+
+
+
+<button onclick="myFunction()">Random joke of the day!</button>
+
+
+
+<div id="snackbar">wanna know what makes me smile? Face muscles!</div>
+
+
+
+<script>
+
+function myFunction() {
+
+  var x = document.getElementById("snackbar");
+
+  x.className = "show";
+
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 8000);
+
+}
+
+</script>
+
+	</body>
+
+		<footer>
+
+    		<ul>
+
+        		<li><a href="mailto:solomoncats10@gmail.com">Email</a></li>
+
+        		<li><a href="https://github.com/Skia10">Github</a></li>
+
+			</ul>
+
+
+
+		</footer>
+
+</html>
